@@ -16,7 +16,7 @@ kotlin {
         version = "1.0"
         ios.deploymentTarget = "14.1"
         framework {
-            baseName = "EduModu"
+            baseName = "shared"
         }
     }
     
@@ -51,7 +51,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.dc_labo.dcjpy_bpmfin.educationlibrary"
+    namespace = "com.dc_labo.dcjpy_bpmfin.kmm_sample"
     compileSdk = 32
     defaultConfig {
         minSdk = 26

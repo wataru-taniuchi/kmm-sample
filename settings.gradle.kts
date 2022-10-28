@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EducationLibrary"
-include(":EduModu")
+rootProject.name = "kmm-sample"
+include(":shared")
